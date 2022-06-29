@@ -2,7 +2,7 @@
 /* main - starting my program
  *
  */
-int main(void);
+int main(void)
 {
 /**
  * Declare functions
