@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-/* Description: Main is assigned void */
-int main(void)
+int main(void) /* Description: Main is assigned void */
 {
 /*initializing string for puts func */
 	char mystr[] = "\"Programming is like building a multilingual puzzle";
 /* Description : puts-To print value of mystr */
-	puts(mystr);		
+	puts(mystr);
 /* return value: 0 */
 	return (0);
 }
