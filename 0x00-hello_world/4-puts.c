@@ -1,6 +1,8 @@
 #include <stdio.h>
-
-int main(void) /* int main - main is assigned void */
+/**
+ * main - Starting my program
+ */
+int main(void)
 {
 /*initializing string for puts func */
 	char mystr[] = "\"Programming is like building a multilingual puzzle";
