@@ -1,7 +1,16 @@
 #include <stdio.h>
-int main()
-{
-	char mystr[] = "\"Programming is like building a multilingual puzzle";
-	puts(mystr);
-        return (0);
+
+	/* initiating main-void */
+	int main()
+	{	
+		/*initializing string for puts func */
+		char mystr[] = "\"Programming is like building a multilingual puzzle";
+               
+		/* Description : puts-To print value of mystr */
+		
+		puts(mystr);
+		
+		/* return value: 0 */
+
+        	return (0);
 }
