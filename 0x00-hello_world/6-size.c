@@ -8,8 +8,7 @@
 int main(void)
 {
 /**
- * Declare functions
- * intTYPE - contains data type
+ * int intTYPE - contains data type
  */
 	int intTYPE;
 	float floatTYPE;
@@ -19,8 +18,8 @@ int main(void)
 /**
  * sizeof - evaluates size of a variable
  * printf - prints value in enclosed bracket appropriately
- * \n - newline
- * sizeof(charTYPE) - evaluate size of char
+ * byte(s\n - newline
+ * sizeof(charTYPE - evaluate size of char
  */
 	printf("Size of a char: %zu byte(s)\n", sizeof(charTYPE));
 	printf("Size of an int: %zu byte(s)\n", sizeof(intTYPE));
