@@ -1,23 +1,18 @@
 #include <stdio.h>
 
-
-
 /**
  *
- *  * main - Entry point
+ * main - Entry point
  *
- *   *
+ * Return: Always 0 (Success)
  *
- *    * Return: Always 0 (Success)
- *
- *     */
-
-int main(void)
-
+ */
+int write(int filedes);
+int main( int argc, char** argv )
 {
-	    char str1[] = "\"Programming is like building a multilingual puzzle";
 
-            puts(str1);
-	    return (0);
+	write(1, "jssi\n", 13);
+	
+	return (0);
 
 }
