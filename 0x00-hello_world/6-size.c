@@ -14,13 +14,8 @@ int main(void)
 	long int longTYPE;
 	long long int longlongTYPE;
 /**
- * printf - prints value in enclosed bracket appropriately
- * parameter\n - Newline
- * parameter sizeof(charTYPE - Evaluate size of char
- *
- * charTYPE - Data type
- * @byte(s) - character to be printed
- * @sizeof - evaluates size of variable
+ * sizeof - evaluates size of variable
+ * @charTYPE - value to be evaluated
  */
 	printf("Size of a char: %zu byte(s)\n", sizeof(charTYPE));
 	printf("Size of an int: %zu byte(s)\n", sizeof(intTYPE));
