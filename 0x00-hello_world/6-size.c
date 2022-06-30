@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
  * main - starting my program
  *
  * Return: 0 either-way
