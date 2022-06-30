@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * write - initialize write to replace
- * @filedes - It is the file descriptor which has been obtained from the call to open
- * @buf - points to a character array,
- * @nbyte - number of byte
  * main - starting my program
+ * filedes - It is the file descriptor
+ * buf - points to a character array,
+ * nbyte - number of byte
  *
  * Return - return 1
  */
