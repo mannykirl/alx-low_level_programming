@@ -16,7 +16,7 @@ int main(void)
 /**
  * printf - prints value in enclosed bracket appropriately
  * @\n - newline
- * sizeof - evaluate size of char
+ * sizeof(charTYPE - evaluate size of char
  */
 	printf("Size of a char: %zu byte(s)\n", sizeof(charTYPE));
 	printf("Size of an int: %zu byte(s)\n", sizeof(intTYPE));
