@@ -2,15 +2,13 @@
 
 /**
  * main - starting my program
+ * int intTYPE - data type
  *
  * Return: 0 either-way
  */
 int main(void)
 {
-/**
- * int intTYPE - contains data type
- */
-	int intTYPE;
+	int intTYPE
 	float floatTYPE;
 	char charTYPE;
 	long int longTYPE;
@@ -18,7 +16,7 @@ int main(void)
 /**
  * sizeof - evaluates size of a variable
  * printf - prints value in enclosed bracket appropriately
- * byte(s\n - newline
+ * @parameterbyte(s\n - newline
  * sizeof(charTYPE - evaluate size of char
  */
 	printf("Size of a char: %zu byte(s)\n", sizeof(charTYPE));
