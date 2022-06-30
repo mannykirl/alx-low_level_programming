@@ -3,6 +3,7 @@
 /**
  * main - starting my program
  * int intTYPE - data type
+ * sizeof(charTYPE - evaluate size of charTYPE
  *
  * Return: 0 either-way
  */
@@ -13,10 +14,7 @@ int main(void)
 	char charTYPE;
 	long int longTYPE;
 	long long int longlongTYPE;
-/**
- * sizeof - evaluates size of variable
- * @charTYPE - value to be evaluated
- */
+
 	printf("Size of a char: %zu byte(s)\n", sizeof(charTYPE));
 	printf("Size of an int: %zu byte(s)\n", sizeof(intTYPE));
 	printf("Size of a long int: %zu byte(s)\n", sizeof(longTYPE));
