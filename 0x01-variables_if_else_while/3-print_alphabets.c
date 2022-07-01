@@ -1,6 +1,12 @@
 #include <stdio.h>
-
-int main (void)
+/**
+ * main - starting my program
+ * int ch -  initializing ch
+ * for - loop function
+ *
+ * Return: always 0
+ */
+int main(void)
 {
 	int ch;
 
