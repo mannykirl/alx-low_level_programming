@@ -14,11 +14,7 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	for (ch = 'f'; ch <= 'p'; ch++)
-	{
-		putchar (ch);
-	}
-	for (ch = 'r'; ch <= 'z'; ch++)
+	for (ch = 'f'; ch <= 'p'; ch++)&&(ch ='r'; ch <= 'z'; ch++)
 	{
 		putchar (ch);
 	}
