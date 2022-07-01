@@ -11,12 +11,14 @@
  * main - starting my program
  *
  * Return: always 0
- */ 
+ */
 int main(void)
 
 {
 	int last;
+
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 /* your code goes there */
