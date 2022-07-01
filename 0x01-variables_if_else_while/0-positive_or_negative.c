@@ -6,7 +6,12 @@
 
 
 /* betty style doc for function main goes there */
-
+/**
+ * main - starting my program
+ * if - if arg is true execute body
+ *
+ * Return: always 0
+ */ 
 int main(void)
 
 {
