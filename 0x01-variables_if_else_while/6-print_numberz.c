@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - starting program 
+ * main - starting program
  * int num -  declare num
  * for - loop function
  *
@@ -10,7 +10,7 @@ int main(void)
 {
 	int num;
 
-	for(num = '0'; num <= '9'; num++)
+	for (num = '0'; num <= '9'; num++)
 	{
 		putchar (num);
 	}
