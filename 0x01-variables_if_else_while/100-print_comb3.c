@@ -12,10 +12,10 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		if (i == 8 && digit == 9)
-			{
-				break;
-			}
+	if (i == 8 && digit == 9)
+		{
+			break;
+		}
 		for (digit = i; digit <= 9; digit++)
 		{
 		if (i == digit)
