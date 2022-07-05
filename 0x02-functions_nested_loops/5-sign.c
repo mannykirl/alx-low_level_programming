@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - print sign as condition are met
- * @n - argument
+ * @n: argument
  *
  * Return:  0 if no condition is met
  */
