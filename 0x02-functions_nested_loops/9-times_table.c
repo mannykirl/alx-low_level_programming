@@ -14,13 +14,16 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 
-			d = m * k
+			d = m * k;
 
 			if (d <= 9)
+			{
 				_putchar(' ');
+			}
 			else
+			{
 				_putchar((d / 10) + '0');
-
+			}
 			_putchar((d % 10) + '0');
 		}
 		_putchar('\n');
