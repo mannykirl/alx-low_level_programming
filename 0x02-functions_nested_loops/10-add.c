@@ -1,5 +1,6 @@
 #include "main.h"
-/** add - add two variables
+/** 
+ * add - add two variables
  * @int i1: var 1
  * @int i2: var 2
  *
