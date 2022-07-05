@@ -1,6 +1,6 @@
 #include "main.h"
 
-int main(void)
+int main()
 {
 	_putchar(_putchar);
 	_putchar('\n');
