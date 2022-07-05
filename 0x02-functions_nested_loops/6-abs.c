@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * _abs - absolute value
+ * @n: argument 1
+ *
+ * Return: 0
+ */
 int _abs(int n)
 {
 	if (n >= 0)
