@@ -4,7 +4,7 @@
  */
 void print_alphabet_x10(void)
 {
-	int new = 0
+	int new = 0;
 	char ch;
 
 	while (new <= 9)
