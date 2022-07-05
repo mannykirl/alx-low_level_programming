@@ -1,7 +1,9 @@
 #include "main.h"
 
-int abs(int n)
+int abs(int)
 {
+	int n;
+
 	if (n > 0)
 		_putchar(n +(n * 2));
 	else 
