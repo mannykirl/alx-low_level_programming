@@ -5,10 +5,16 @@
  */
 void print_to_98(int n)
 {
-	for (n <= 0; n <= 98; n++)
+	while (n < 98)
 	{
-		_putchar(n);
-		_putchar(',');
-		_putchar(' ');
+		printf("%i, ", n);
+		n++;
 	}
+	while (n > 98)
+	{
+		printf("%i, ", n);
+			n--;
+	}
+	printf("98");
+	putchar('\n');
 }
