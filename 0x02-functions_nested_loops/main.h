@@ -1,4 +1,6 @@
-#ifndef main
+#ifndef MAIN_H
+#define MAIN_H
+
 int _putchar(char m);
-#define main
+
 #endif
