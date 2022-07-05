@@ -5,7 +5,7 @@
 void print_alphabet(void)
 {
 	char ch;
-	for (ch = "97"; ch <= "112"; ch++)
+	for (ch = 97; ch <= 112; ch++)
 	{
 		_putchar(ch);
 	}
