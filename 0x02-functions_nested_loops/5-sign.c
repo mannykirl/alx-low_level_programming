@@ -4,6 +4,7 @@
  * @n - argument
  *
  * Return:  0 if no condition is met
+ */
 int print_sign(int n)
 {
 	if (n > 0)
