@@ -1,8 +1,8 @@
 #include "main.h"
-/** 
+/**
  * add - add two variables
- * @int i1: var 1
- * @int i2: var 2
+ * @i1: var 1
+ * @i2: var 2
  *
  * Return: result of int 1 + 2
  */
