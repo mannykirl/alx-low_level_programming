@@ -8,7 +8,7 @@ int main(void)
 {
 	long int a = 0, b = 1, next;
 	int i;
-	
+
 	for (i = 0; i < 50; i++)
 	{
 		next = a + b;
