@@ -15,7 +15,8 @@ int main(void)
 		a = b;
 		b = next;
 
-		printf("%lu, \n", next);
+		printf("%lu, ", next);
 	}
+	putchar('\n');
 	return (0);
 }
