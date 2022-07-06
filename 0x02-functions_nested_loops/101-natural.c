@@ -8,7 +8,7 @@ int main(void)
 {
 	int c = 0, sum = 0;
 
-	for (c < 1024)
+	while (c < 1024)
 	{
 		if (c % 3 == 0 || c % 5 == 0)
 		{
