@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	long int a, b, next;
+	long int a = 0, b = 1, next;
 	int sum = 0;
 
 	while (next < 4000000)
