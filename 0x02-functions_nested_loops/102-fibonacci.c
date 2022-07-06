@@ -15,7 +15,11 @@ int main(void)
 		a = b;
 		b = next;
 
-		printf("%i, ", next);
+		printf("%i", next);
+		if (i < 49)
+		{
+			printf(", ");
+		}
 	}
 	putchar('\n');
 	return (0);
