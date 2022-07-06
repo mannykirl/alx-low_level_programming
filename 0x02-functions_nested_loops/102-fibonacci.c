@@ -15,7 +15,7 @@ int main(void)
 		a = b;
 		b = next;
 
-		printf("%i, ", b);
+		printf("%i, ", next);
 	}
 	putchar('\n');
 	return (0);
