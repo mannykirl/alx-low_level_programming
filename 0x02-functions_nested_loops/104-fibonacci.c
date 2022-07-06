@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int a = 0, b = 1, next;
+	long int a = 0, b = 1, next;
 	int i;
 
 	for (i = 0; i <= 98; i++)
@@ -15,7 +15,7 @@ int main(void)
 		a = b;
 		b = next;
 
-		printf("%i, ", next);
+		printf("%lu, ", next);
 	}
 	putchar('\n');
 	return (0);
