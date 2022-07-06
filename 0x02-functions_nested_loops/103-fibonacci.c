@@ -9,13 +9,13 @@ int main(void)
 	long int a, b, next;
 	int sum = 0;
 
-	while (b < 4000000)
+	while (next < 4000000)
 	{
 		next = a + b;
 		a = b;
 		b = next;
 		if (b % 2 == 0)
-			sum += b;
+			sum += next;
 	}
 	printf("%i", sum);
 	putchar('\n');
