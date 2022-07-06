@@ -14,11 +14,10 @@ int main(void)
 		next = a + b;
 		a = b;
 		b = next;
-
 		if (b % 2 == 0)
 			sum += b;
-		printf("%i", sum);
 	}
+	printf("%i", sum);
 	putchar('\n');
 	return (0);
 }
