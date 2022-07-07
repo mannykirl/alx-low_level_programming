@@ -7,11 +7,12 @@
  */
 int _isupper(int c)
 {
-	int c;
+	c = A;
 	
-	if (c = A; c <= Z; c++)
+	if (c <= Z;)
 	{
 		return (1);
+		c++;
 	}
 	else
 	{
