@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangle
+ * print_triangle - print triangle
  * @size: number of pound sign to print
  *
  * Return: void
