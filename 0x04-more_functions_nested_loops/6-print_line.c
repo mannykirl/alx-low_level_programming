@@ -1,6 +1,17 @@
 #include "main.h"
 
+/**
+ * print_line - print lines
+ *
+ * Return: void
+ */
+
 void print_line(int n)
 {
-	while (n > 100)
-
+	int i;
+	for (i = 0; i <= n; i++)
+	{
+		_putchar('_')
+	}
+	_putchar('\n');
+}
