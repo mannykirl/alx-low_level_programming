@@ -3,8 +3,8 @@
 
 /**
  * print_array - print array
- * @a; pointer a
- * @n; contain length of array
+ * @a: pointer a
+ * @n: contain length of array
  *
  * Return: void
  */
