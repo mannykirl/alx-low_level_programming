@@ -1,0 +1,20 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * print_array - print array
+ * @a; pointer a
+ * @n; contain length of array
+ *
+ * Return: void
+ */
+void print_array(int *a, int n)
+{
+	int i;
+	int array[n];
+
+	for (i = 0; i < n; i++)
+	{
+		printf("%d, \n", array[i]);
+	}
+}
