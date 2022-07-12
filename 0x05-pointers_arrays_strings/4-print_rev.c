@@ -8,7 +8,9 @@
  */
 void print_rev(char *s)
 {
-	while (*s == s)
+	char c = *s;
+
+	while (*s == c)
 	{
 		_putchar(*s);
 		s--;
