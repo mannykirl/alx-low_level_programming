@@ -4,6 +4,7 @@
  * @s: void pointer that contains destination
  * @b: char to be assigned
  * @n: number of byte to be filled
+ * Return: return s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
