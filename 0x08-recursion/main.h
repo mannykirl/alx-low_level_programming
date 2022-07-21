@@ -14,5 +14,7 @@ int find_multipliers(int n, int i);
 int is_palindrome(char *s);
 int check(char *s, int start, int end, int pair);
 int last_index(char *s);
+int wildcmp(char *s1, char *s2);
+int str_checker(char *s1, char *s2, int i, int j);
 
 #endif
