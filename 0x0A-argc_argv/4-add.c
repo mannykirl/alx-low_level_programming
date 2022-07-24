@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-int notdigit(char *s)
+/**
+ * digit - check for digit
+ * @s: string that will be checked
+ *
+ * Return: return 0
+ */
+int digit(char *s)
 {
 	int i;
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if ((s[i] > 48 || s[i] > 57))
@@ -13,10 +19,17 @@ int notdigit(char *s)
 	}
 	return (0);
 }
-
+/**
+ * main - add positive number
+ * @argc: size of array
+ * @argv: array of string
+ *
+ * Return: return 0
+ */
 int main(int argc, char *argv[])
 {
 	int i, sum = 0;
+
 	if (argc < 1)
 	{
 		printf("0\n");
@@ -24,7 +37,7 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		sum += atoi(argv[i]);
-		if (!notdigit(argv[i]))
+		if (!digit(argv[i]))
 		{
 			printf("Error\n");
 			return (1);
